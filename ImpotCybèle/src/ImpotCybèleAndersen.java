@@ -31,6 +31,7 @@ public class ImpotCybèleAndersen
 		 *============
 		 *
 		 */
+		//bonjour
 		Scanner sc=new Scanner(System.in);
 		//Déclaration des variables
 		String nom, prenom, facture;
@@ -38,10 +39,21 @@ public class ImpotCybèleAndersen
 		//Récupération des données
 		System.out.println("Donner le nom ");
 		nom=sc.nextLine();
+		while(nom.length()<1)
+		{
+			System.out.println("Tu dois donner votre nom");
+			nom=sc.nextLine();
+		}
 		System.out.println("Donner le prenom ");
 		prenom=sc.nextLine();
+		while(prenom.length()<1)
+		{
+			System.out.println("Tu dois donner votre prenom");
+			prenom=sc.nextLine();
+		}
 		System.out.println("Donner le revenu brut ");
 		RevenuBrut=sc.nextDouble();
+		
 		//Si le revenu brut est inférieur à 0
 		if (RevenuBrut<0)
 		do
