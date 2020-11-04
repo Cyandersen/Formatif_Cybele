@@ -29,7 +29,7 @@ public class ImpotCybèleAvecSeulmentLesPourcentage
 		 *Caluler Impôt
 		 *Afficher
 		 *============
-		 *
+		 *Bonjour!
 		 */
 		Scanner sc=new Scanner(System.in);
 		//Déclaration des variables
