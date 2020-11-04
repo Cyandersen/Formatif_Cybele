@@ -31,7 +31,7 @@ public class ImpotCybèleAndersen
 		 *============
 		 *
 		 */
-		//bonjour
+		//bonjour!!
 		Scanner sc=new Scanner(System.in);
 		//Déclaration des variables
 		String nom, prenom, facture;
